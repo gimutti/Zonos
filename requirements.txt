@@ -6,3 +6,5 @@ phonemizer
 numpy
 scipy
 sentencepiece
+sudachipy
+sudachidict_full
