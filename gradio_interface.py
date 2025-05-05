@@ -3,7 +3,7 @@ import torchaudio
 import gradio as gr
 from os import getenv
 
-from zonos-modified.model import Zonos, DEFAULT_BACKBONE_CLS as ZonosBackbone
+from zonos.model import Zonos, DEFAULT_BACKBONE_CLS as ZonosBackbone
 from zonos.conditioning import make_cond_dict, supported_language_codes
 from zonos.utils import DEFAULT_DEVICE as device
 
